@@ -115,11 +115,12 @@
     <script type="text/javascript">
         function jump(){
             var pw=document.getElementById("pw").value;
-            if(pw=="zxs"){
+            var un=document.getElementById("un").value;
+            if(pw=="zxs" && un==null){
                 alert("success");
                 window.location.href="mysite2.html";
             }
-            else if(un=="zxs"){
+            else if(un=="zxs" && pw==null){
                 alert("success");
                 window.location.href="unpw.html";
             }
