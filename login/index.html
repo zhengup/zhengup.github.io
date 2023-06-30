@@ -100,7 +100,7 @@
         </div>
         <div class="input-wrapper">
             <div class="border-wrapper">
-                <input id= "un" type="username" name="username" placeholder="username" class="border-item" autocomplete="off">
+                <input type="text" name="username" placeholder="username" class="border-item" autocomplete="off">
             </div>
             <div class="border-wrapper">
                 <input id="pw" type="password" name="password" placeholder="password" class="border-item" autocomplete="off">
@@ -115,12 +115,11 @@
     <script type="text/javascript">
         function jump(){
             var pw=document.getElementById("pw").value;
-            var un=document.getElementById("un").value;
-            if(pw=="zxs" && un==null){
+            if(pw=="anal"){
                 alert("success");
                 window.location.href="mysite2.html";
             }
-            else if(un=="zxs" && pw==null){
+            else if(pw=="unpw"){
                 alert("success");
                 window.location.href="unpw.html";
             }
